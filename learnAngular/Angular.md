@@ -59,3 +59,42 @@
     }); 
     ```
     浏览器上将显示 `Hello World`
+    
+    但是这相当于把数据直接绑定到了最上层的`$rootScope`上，这就跟定义全局变量一样坑，所以我们可以用一个控制器隔离子`$scope`对象，如：
+    ```html
+    <div ng-app="myApp">
+        <div ng-controller="MyController"> 
+            <h1>Hello {{ name }}</h1> 
+        </div>
+    </div>
+    ```
+    ```javascript
+    angular.module("myApp", []) 
+    .controller('MyController',  
+    function($scope) {
+      $scope.name = "Ari"; 
+    });  
+    ```
+
+6.控制器
+  
+  NG中的控制器是一个函数，我们在页面上创建一个新的控制器时，AngularJS会生成并传递一个新的$scope给这个控制器。如：
+  ```javascript
+  function FirstController($scope) {  
+    $scope.message = "hello"; 
+  } 
+  ```
+  (控制器命名：[Name]Controller)
+  同理，我们不想在全局作用域下建立本函数，就可以创建一个模块，然后在模块中创建控制器，如：
+  ```javascript
+  var app = angular.module('app', []); 
+  app.controller('FirstController', function($scope) {   
+    $scope.message = "hello"; 
+  }); 
+  ```
+  于是我们就在`app`模块下的`FirstController`控制器里对`$scope`进行了初始化。
+  因此说，控制器是视图和$scope之间的桥梁。 
+  
+7.表达式
+  
+  
