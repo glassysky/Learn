@@ -44,4 +44,18 @@
 
 5. 作用域
 
+    AngularJS启动并生成视图时， 会将根`ng-app`元素同`$rootScope`进行绑定。`$rootScope`是所有`$scope`对象的最上层。$scope的所有属性，都可以自动被视图访问到。
     
+    例：
+    ```html
+    <div ng-app="myApp">
+        <h1>Hello {{ name }}</h1> 
+    </div>
+    ```
+    ```javascript
+    angular.module('myApp', [])   
+      .run(function($rootScope) {    
+        $rootScope.name = "World"; 
+    }); 
+    ```
+    浏览器上将显示 `Hello World`
