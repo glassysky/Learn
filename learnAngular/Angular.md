@@ -68,6 +68,7 @@
         </div>
     </div>
     ```
+    
     ```javascript
     angular.module("myApp", []) 
     .controller('MyController',  
@@ -75,9 +76,7 @@
       $scope.name = "Ari"; 
     });  
     ```
-
 6.控制器
-  
     NG中的控制器是一个函数，我们在页面上创建一个新的控制器时，AngularJS会生成并传递一个新的$scope给这个控制器。如：
     ```javascript
     function FirstController($scope) {  
