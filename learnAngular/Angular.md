@@ -78,23 +78,33 @@
 
 6.控制器
   
-  NG中的控制器是一个函数，我们在页面上创建一个新的控制器时，AngularJS会生成并传递一个新的$scope给这个控制器。如：
-  ```javascript
-  function FirstController($scope) {  
-    $scope.message = "hello"; 
-  } 
-  ```
-  (控制器命名：[Name]Controller)
-  同理，我们不想在全局作用域下建立本函数，就可以创建一个模块，然后在模块中创建控制器，如：
-  ```javascript
-  var app = angular.module('app', []); 
-  app.controller('FirstController', function($scope) {   
-    $scope.message = "hello"; 
-  }); 
-  ```
-  于是我们就在`app`模块下的`FirstController`控制器里对`$scope`进行了初始化。
-  因此说，控制器是视图和$scope之间的桥梁。 
+    NG中的控制器是一个函数，我们在页面上创建一个新的控制器时，AngularJS会生成并传递一个新的$scope给这个控制器。如：
+    ```javascript
+    function FirstController($scope) {  
+      $scope.message = "hello"; 
+    } 
+    ```
+    (控制器命名：[Name]Controller)
+    同理，我们不想在全局作用域下建立本函数，就可以创建一个模块，然后在模块中创建控制器，如：
+    ```javascript
+    var app = angular.module('app', []); 
+    app.controller('FirstController', function($scope) {   
+      $scope.message = "hello"; 
+    }); 
+    ```
+    于是我们就在`app`模块下的`FirstController`控制器里对`$scope`进行了初始化。
+    因此说，控制器是视图和$scope之间的桥梁。 
   
 7.表达式
-  
+    
+    `{{ expression }}`就 是一个表达式
+    表达式的特点：
+     - 所有的表达式都在其所属的作用域内部执行，并有访问本地$scope的权限
+     - 如果表达式发生了TypeError和ReferenceError并不会抛出异常
+     - 不允许使用任何流程控制功能（条件控制，例如if/eles）
+     - 可以接受过滤器和过滤器链
+     
+8.过滤器
+    
+    
   
