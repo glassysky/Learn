@@ -21,6 +21,6 @@ angular.module('myApp.services',[])
 					});
 				return d.promise;
 			}
-		}
+		};
 		return service;
 	});
