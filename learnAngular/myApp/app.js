@@ -17,6 +17,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+// 添加
 app.get('/hits', hits.count);
 app.post('/hit', hits.registerNew);
 
