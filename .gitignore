@@ -1,6 +1,7 @@
 node_modules/*
 
 gulp/node_modules/*
+grunt/node_modules/*
 
 test.txt
 
