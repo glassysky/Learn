@@ -3,3 +3,5 @@ node_modules/*
 gulp/node_modules/*
 
 test.txt
+
+.idea/
