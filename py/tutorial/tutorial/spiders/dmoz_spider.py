@@ -30,8 +30,11 @@ class DmozSpider(scrapy.Spider):
         for sel in response.xpath('//ul/li'):
             a = sel.xpath('a/text()').extract()
             item = DmozItem()
-            item['title'] = sel.xpath('a/text()').extract()
+            if(len(sel.xpath('a/text()').extract()) > 0):
+                item['title'] = sel.xpath('a/text()').extract()[0].encode('utf-8')
+            else:
+                item['title'] = ''
+            # item['title'] = 1
             item['link'] = sel.xpath('a/@href').extract()
             item['desc'] = sel.xpath('text()').extract()
             yield item
-        print a[0]

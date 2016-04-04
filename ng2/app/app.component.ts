@@ -3,7 +3,6 @@ import {HeroService} from './hero.service';
 import {HeroesComponent} from './heroes.component';
 import {DashboardComponent} from './dashboard.component';
 import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
-import {Hero} from "./hero";
 import {HeroDetailComponent} from "./hero-detail.component";
 
 @Component({
