@@ -1,17 +1,28 @@
 /**
  * Created by cuitianhao on 16/4/16.
  */
+var webpack = require('webpack')
+var path = require('path')
+
 module.exports = {
-    entry: './entry.js',
+    entry: './src/js/entry.js',
     output: {
-        path: __dirname,
+        path: path.resolve(__dirname, 'static'),
         filename: 'bundle.js'
     },
     module: {
         loaders: [
             {
-                test: /\.css$/,
-                loader: 'style!css'
+                test: /\.scss$/,
+                loader: 'style!css!sass'
+            },
+            {
+                test: /\.js$/,
+                exclude: /(node_modules|bower_components)/,
+                loader: 'babel',
+                query: {
+                    presets: [ 'react', 'es2015' ]
+                }
             }
         ]
     }
