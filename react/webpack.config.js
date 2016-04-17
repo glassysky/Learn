@@ -5,7 +5,10 @@ var webpack = require('webpack')
 var path = require('path')
 
 module.exports = {
-    entry: './src/js/entry.js',
+    entry: [
+        'webpack-hot-middleware/client',
+        './src/js/entry.js'
+    ],
     output: {
         path: path.resolve(__dirname, 'static'),
         publicPath: '/static/',
@@ -26,5 +29,14 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    plugins: [
+        // Webpack 1.0
+        new webpack.optimize.OccurenceOrderPlugin(),
+        // Webpack 2.0 fixed this mispelling
+        // new webpack.optimize.OccurrenceOrderPlugin(),
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NoErrorsPlugin()
+
+    ]
 }
