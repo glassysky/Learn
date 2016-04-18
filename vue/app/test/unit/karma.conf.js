@@ -6,10 +6,14 @@
 var path = require('path')
 var merge = require('webpack-merge')
 var baseConfig = require('../../build/webpack.base.conf')
+var utils = require('../../build/utils')
 var projectRoot = path.resolve(__dirname, '../../')
 
 var webpackConfig = merge(baseConfig, {
   // use inline sourcemap for karma-sourcemap-loader
+  module: {
+    loaders: utils.styleLoaders()
+  },
   devtool: '#inline-source-map',
   vue: {
     loaders: {
@@ -22,6 +26,7 @@ var webpackConfig = merge(baseConfig, {
 delete webpackConfig.entry
 
 // make sure isparta loader is applied before eslint
+webpackConfig.module.preLoaders = webpackConfig.module.preLoaders || []
 webpackConfig.module.preLoaders.unshift({
   test: /\.js$/,
   loader: 'isparta',
@@ -44,7 +49,7 @@ module.exports = function (config) {
     //    http://karma-runner.github.io/0.13/config/browsers.html
     // 2. add it to the `browsers` array below.
     browsers: ['PhantomJS'],
-    frameworks: ['jasmine'],
+    frameworks: ['mocha', 'sinon-chai'],
     reporters: ['spec', 'coverage'],
     files: ['./index.js'],
     preprocessors: {
