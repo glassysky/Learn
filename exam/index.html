@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="head-wrap">
+      <div id="head-bar"></div>
+      <div id="nav-bar">
+        <div class="top-nav-bar"></div>
+        <div class="bottom-nav-bar"></div>
+      </div>
+    </div>
+    <div class="body-wrap">
+      <div id="trail-bar"></div>
+      <div id="main-content">
+        <div class="notice-info"></div>
+        <div class="form">
+          <div class="form-control row">
+            <div class="col-md-2">
+              <label for="">真实姓名</label>
+            </div>
+            <div class="col-md-8">
+              <input type="text">
+            </div>
+          </div>
+          <div class="form-control row">
+            <div class="col-md-2">
+              <label for="">身份证号</label>
+            </div>
+            <div class="col-md-8">
+              <input type="text">
+            </div>
+          </div>
+          <div class="form-control row">
+            <div class="col-md-2">
+              <label for="">银行卡卡号</label>
+            </div>
+            <div class="col-md-8">
+              <input type="text">
+              <p class="point-info card-require-info">输入卡号后会智能识别银行和卡种。<a href="">银行卡要求</a></p>
+            </div>
+          </div>
+          <div class="form-control row">
+            <div class="col-md-2">
+              <label for="">手机号码</label>
+            </div>
+            <div class="col-md-8">
+              <input type="text">
+              <p class="point-info">请填写您在银行预留的手机号码，以验证银行卡号是否属于您本人</p>
+            </div>
+          </div>
+          <div class="form-control row">
+            <div class="col-md-8 col-offset-md-2">
+              <button>同意协议并确定</button>
+              <p class="point-info protocol-info"><span class="quote-left quote">《</span><a href="">支付宝快捷支付服务协议</a><span class="quote-right quote">》</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot-wrap">
+      </div>
+    </div>
+  </div>
+  <script src='./dist/app.js'></script>
+</body>
+</html>
