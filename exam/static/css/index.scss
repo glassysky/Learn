@@ -1,36 +1,11 @@
+@import 'form.scss';
+@import 'layout.scss';
+@import 'card-input.scss';
+
 $common-width: 990px;
-$input-height: 30px;
-
-@mixin col-md($num) {
-  box-sizing: border-box;
-  flex: 0 0 10% * $num;
-  padding: 0 5px;
-}
-
-@mixin col-offset-md($num) {
-  margin-left: 10% * $num;
-}
 
 .quote {
   display: inline-block;
-}
-
-.row {
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-
-  .col-md-2 {
-    @include col-md(2);
-  }
-
-  .col-md-8 {
-    @include col-md(8);
-  }
-
-  .col-offset-md-2 {
-    @include col-offset-md(2)
-  }
 }
 
 .main-container {
@@ -67,47 +42,16 @@ $input-height: 30px;
       margin: 0 auto 40px;
       padding: 30px;
       background-color: #fff;
+      border: 1px solid #ddd;
       .notice-info {
         width: 100%;
         height: 35px;
+        border: 1px solid #ddd;
         box-sizing: border-box;
         background-color: #e5f5ff;
       }
       .form {
-        width: 500px;
-        margin: 0 auto;
         .form-control {
-          width: 100%;
-          margin: 22px 0;
-          font-size: 0.9em;
-          label {
-            display: inline-block;
-            width: 100%;
-            height: $input-height;
-            line-height: $input-height;
-            text-align: right;
-          }
-          input {
-            width: 222px;
-            height: 30px;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            padding: 0 10px;
-            background-color: #f2f2f2;
-          }
-          button {
-            display: block;
-            width: 140px;
-            height: 36px;
-            line-height: 36px;
-            background-color: #f39f1b;
-            box-sizing: border-box;
-            padding: 0;
-            border: 1px solid #e67c00;
-            border-radius: 2px;
-            font-weight: 700;
-            color: #fff;
-          }
           .point-info {
             font-size: 0.8em;
             margin: 2px 0;

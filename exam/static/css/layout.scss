@@ -1,0 +1,27 @@
+@mixin col-md($num) {
+  box-sizing: border-box;
+  flex: 0 0 10% * $num;
+  padding: 0 5px;
+}
+
+@mixin col-offset-md($num) {
+  margin-left: 10% * $num;
+}
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+
+  .col-md-2 {
+    @include col-md(2);
+  }
+
+  .col-md-8 {
+    @include col-md(8);
+  }
+
+  .col-offset-md-2 {
+    @include col-offset-md(2)
+  }
+}
