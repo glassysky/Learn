@@ -1,4 +1,9 @@
+$ui-icon-width: 13px;
+$ui-icon-height: 16px;
+
 .ui-bank-safe {
+  width: $ui-icon-width;
+  height: $ui-icon-height;
   background: url("https://i.alipayobjects.com/i/ecmng/png/201408/3EiPVyEM6f.png");
   background-position: -161px -77px;
 }

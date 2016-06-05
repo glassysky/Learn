@@ -16,12 +16,11 @@ $input-height: 30px;
     }
     input {
       width: 222px;
-      height: 30px;
+      height: $input-height;
       box-sizing: border-box;
       border: 1px solid #ccc;
       padding: 0 10px;
-      background-color: #f2f2f2;
-      color: #b1b1b1;
+      color: #595959;
       font-size: 0.9em;
     }
     button {
@@ -36,6 +35,9 @@ $input-height: 30px;
       border-radius: 2px;
       font-weight: 700;
       color: #fff;
+    }
+    input.forbid-input {
+      background-color: #f2f2f2;
     }
   }
 }

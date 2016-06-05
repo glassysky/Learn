@@ -1,6 +1,6 @@
 @import 'form.scss';
 @import 'layout.scss';
-@import 'card-input.scss';
+@import 'ui.scss';
 
 $common-width: 990px;
 
@@ -52,6 +52,19 @@ $common-width: 990px;
       }
       .form {
         .form-control {
+          .bank-card-input {
+            position: relative;
+            input {
+              padding: 0 10px 0 20px;
+            }
+            .ui-bank-safe {
+              position: absolute;
+              top: ($input-height - $ui-icon-height) / 2;
+              left: 10px;
+              width: 13px;
+              height: 16px;
+            }
+          }
           .point-info {
             font-size: 0.8em;
             margin: 2px 0;

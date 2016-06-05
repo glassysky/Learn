@@ -23,7 +23,7 @@
               <label for="">真实姓名</label>
             </div>
             <div class="col-md-8">
-              <input type="text">
+              <input type="text" class="forbid-input" value="张三" readonly>
             </div>
           </div>
           <div class="form-control row">
@@ -31,15 +31,16 @@
               <label for="">身份证号</label>
             </div>
             <div class="col-md-8">
-              <input type="text">
+              <input type="text" class="forbid-input" value="2****************8" readonly>
             </div>
           </div>
           <div class="form-control row">
             <div class="col-md-2">
               <label for="">银行卡卡号</label>
             </div>
-            <div class="col-md-8">
-              <input type="text" id="card-input">
+            <div class="col-md-8 bank-card-input">
+              <input type="text" id="bank-card">
+              <div class="ui-bank-safe"></div>
               <p class="point-info card-require-info">输入卡号后会智能识别银行和卡种。<a href="">银行卡要求</a></p>
             </div>
           </div>
