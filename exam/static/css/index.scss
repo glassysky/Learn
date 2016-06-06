@@ -34,11 +34,11 @@ $common-width: 990px;
   .body-wrap {
     background-color: #eff0f1;
     #trail-bar {
-      width: $common-width;
+      max-width: $common-width;
       height: 50px;
     }
     #main-content {
-      width: $common-width;
+      max-width: $common-width;
       margin: 0 auto 40px;
       padding: 30px;
       background-color: #fff;
@@ -52,10 +52,15 @@ $common-width: 990px;
       }
       .form {
         .form-control {
+          input {
+            padding-left: 10px;
+            padding-right: 40px;
+          }
           .bank-card-input {
             position: relative;
             input {
-              padding: 0 10px 0 20px;
+              padding-left: 20px;
+              padding-right: 30px;
             }
             .ui-bank-safe {
               position: absolute;
@@ -83,6 +88,9 @@ $common-width: 990px;
               color: #058acd;
               text-decoration: none;
             }
+          }
+          button {
+            display: block;
           }
         }
       }

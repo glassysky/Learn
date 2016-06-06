@@ -1,12 +1,7 @@
 (function(){
-  var input = document.getElementById("bank-card");
-  input.onchange = function () {
-    console.log(3);
-  }
-  input.onfocus = function () {
+  var bankInput = document.getElementById("bank-card");
+
+  bankInput.oninput = function(event){
     console.log(1);
-  }
-  input.onblur = function () {
-    console.log(2);
   }
 })();

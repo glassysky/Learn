@@ -1,6 +1,6 @@
 @mixin col-md($num) {
   box-sizing: border-box;
-  flex: 0 0 10% * $num;
+  width: 10% * $num;
   padding: 0 5px;
 }
 
@@ -9,9 +9,11 @@
 }
 
 .row {
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
+  overflow: hidden;
+
+  & > div {
+    float: left;
+  }
 
   .col-md-2 {
     @include col-md(2);
@@ -24,4 +26,12 @@
   .col-offset-md-2 {
     @include col-offset-md(2)
   }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }

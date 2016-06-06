@@ -1,4 +1,5 @@
 $input-height: 30px;
+$input-border: 1px;
 
 .form {
   width: 500px;
@@ -16,23 +17,23 @@ $input-height: 30px;
     }
     input {
       width: 222px;
-      height: $input-height;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      padding: 0 10px;
+      height: 18px;
+      padding: 6px;
+      line-height: 18px;
+      border: $input-border solid #ccc;
       color: #595959;
-      font-size: 0.9em;
+      font-size: 12px;
     }
     button {
-      display: block;
       width: 140px;
       height: 36px;
       line-height: 36px;
       background-color: #f39f1b;
       box-sizing: border-box;
       padding: 0;
-      border: 1px solid #e67c00;
+      border: 0;
       border-radius: 2px;
+      font-size: 14px;
       font-weight: 700;
       color: #fff;
     }

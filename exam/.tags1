@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+input-height	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^$input-height: 30px;$/;"	function	line:1
+input-border	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^$input-border: 1px;$/;"	function	line:2
+.form	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^.form {$/;"	function	line:4
+.form-control	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^  .form-control {$/;"	function	line:7
+label	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    label {$/;"	function	line:11
+input	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    input {$/;"	function	line:18
+button	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    button {$/;"	function	line:27
+input.forbid-input	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    input.forbid-input {$/;"	function	line:40
