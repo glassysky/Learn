@@ -51,8 +51,11 @@ $common-width: 990px;
         background-color: #e5f5ff;
       }
       .form {
+        position: relative;
+        width: 500px;
         .form-control {
           input {
+            width: 170px;
             padding-left: 10px;
             padding-right: 40px;
           }
@@ -91,6 +94,10 @@ $common-width: 990px;
           }
           button {
             display: block;
+            background-color: #f39f1b;
+            border-radius: 2px;
+            box-sizing: border-box;
+            font-weight: 700;
           }
         }
       }
@@ -100,5 +107,22 @@ $common-width: 990px;
       height: 40px;
       margin: 20px auto;
     }
+  }
+}
+
+#card-top-info {
+  position: absolute;
+  top: 76px;
+  left: 105px;
+  background-color: #fffdca;
+  border: 1px solid #facf66;
+  p {
+    width: 200px;
+    height: 18px;
+    line-height: 18px;
+    padding: 6px 10px;
+    margin: 0;
+    color: #f73705;
+    font-size: 14px;
   }
 }

@@ -4,11 +4,10 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-input-height	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^$input-height: 30px;$/;"	function	line:1
-input-border	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^$input-border: 1px;$/;"	function	line:2
-.form	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^.form {$/;"	function	line:4
-.form-control	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^  .form-control {$/;"	function	line:7
-label	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    label {$/;"	function	line:11
-input	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    input {$/;"	function	line:18
-button	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    button {$/;"	function	line:27
-input.forbid-input	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    input.forbid-input {$/;"	function	line:40
+addHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^        addHandler: function (element, type, handler) {$/;"	function	line:6
+removeHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^        removeHandler: function (element, type, handler) {$/;"	function	line:15
+trim	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      trim: function (str) {$/;"	function	line:25
+divide	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      divide: function (str, pattern, replace) {$/;"	function	line:28
+bankInput	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  var bankInput = document.getElementById("bank-card"),$/;"	variable	line:34
+handler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function handler (event) {$/;"	function	line:38
+handler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function handler (event) {$/;"	function	line:38
