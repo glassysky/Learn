@@ -46,9 +46,8 @@
 
 	__webpack_require__(1);
 	__webpack_require__(5);
-
+	// 主要交互逻辑部分
 	__webpack_require__(7);
-	__webpack_require__(9);
 
 
 /***/ },
@@ -434,7 +433,7 @@
 
 
 	// module
-	exports.push([module.id, ".form {\n  margin: 0 auto; }\n  .form .form-control {\n    width: 100%;\n    margin: 22px 0;\n    font-size: 0.9em; }\n    .form .form-control label {\n      display: inline-block;\n      width: 100%;\n      height: 30px;\n      line-height: 30px;\n      text-align: right; }\n    .form .form-control input {\n      height: 18px;\n      padding: 6px;\n      line-height: 18px;\n      border: 1px solid #ccc;\n      color: #595959;\n      font-size: 12px; }\n    .form .form-control button {\n      width: 140px;\n      height: 36px;\n      line-height: 36px;\n      padding: 0;\n      border: 0;\n      font-size: 14px;\n      color: #fff; }\n    .form .form-control input.forbid-input {\n      background-color: #f2f2f2; }\n\n.row {\n  overflow: hidden; }\n  .row > div {\n    float: left; }\n  .row .col-md-2 {\n    box-sizing: border-box;\n    width: 20%;\n    padding: 0 5px; }\n  .row .col-md-8 {\n    box-sizing: border-box;\n    width: 80%;\n    padding: 0 5px; }\n  .row .col-offset-md-2 {\n    margin-left: 20%; }\n\n.left {\n  float: left; }\n\n.right {\n  float: right; }\n\n.ui-bank-safe {\n  width: 13px;\n  height: 16px;\n  background: url(\"https://i.alipayobjects.com/i/ecmng/png/201408/3EiPVyEM6f.png\");\n  background-position: -161px -77px; }\n\n.ui-error-arrow {\n  background: url(\"https://i.alipayobjects.com/e/201209/1COYhD8EL6.png\");\n  background-position: -16px -510px; }\n\n.ui-error-cross {\n  background: url(\"https://i.alipayobjects.com/e/201209/1COYhD8EL6.png\");\n  background-position: -59px -70px; }\n\n.quote {\n  display: inline-block; }\n\n.main-container {\n  width: 100%;\n  padding-bottom: 20px; }\n  .main-container .head-wrap {\n    width: 100%; }\n    .main-container .head-wrap #head-bar {\n      width: 100%;\n      height: 28px;\n      background-color: #3D474A; }\n    .main-container .head-wrap #nav-bar .top-nav-bar {\n      width: 100%;\n      height: 76px;\n      background-color: #f6f6f6; }\n    .main-container .head-wrap #nav-bar .bottom-nav-bar {\n      width: 100%;\n      height: 32px;\n      background-color: #e3e3e3; }\n  .main-container .body-wrap {\n    background-color: #eff0f1; }\n    .main-container .body-wrap #trail-bar {\n      max-width: 990px;\n      height: 50px; }\n    .main-container .body-wrap #main-content {\n      max-width: 990px;\n      margin: 0 auto 40px;\n      padding: 30px;\n      background-color: #fff;\n      border: 1px solid #ddd; }\n      .main-container .body-wrap #main-content .notice-info {\n        width: 100%;\n        height: 35px;\n        border: 1px solid #ddd;\n        box-sizing: border-box;\n        background-color: #e5f5ff; }\n      .main-container .body-wrap #main-content .form {\n        position: relative;\n        width: 500px; }\n        .main-container .body-wrap #main-content .form .form-control input {\n          width: 170px;\n          padding-left: 10px;\n          padding-right: 40px; }\n        .main-container .body-wrap #main-content .form .form-control .bank-card-input {\n          position: relative; }\n          .main-container .body-wrap #main-content .form .form-control .bank-card-input input {\n            padding-left: 20px;\n            padding-right: 30px; }\n          .main-container .body-wrap #main-content .form .form-control .bank-card-input .ui-bank-safe {\n            position: absolute;\n            top: 7px;\n            left: 10px;\n            width: 13px;\n            height: 16px; }\n        .main-container .body-wrap #main-content .form .form-control .point-info {\n          font-size: 0.8em;\n          margin: 2px 0;\n          color: #a3a3a3; }\n        .main-container .body-wrap #main-content .form .form-control .point-info.protocol-info {\n          margin: 10px 0 0 -5px; }\n          .main-container .body-wrap #main-content .form .form-control .point-info.protocol-info a {\n            color: #a3a3a3; }\n        .main-container .body-wrap #main-content .form .form-control .point-info.card-require-info a {\n          color: #058acd;\n          text-decoration: none; }\n        .main-container .body-wrap #main-content .form .form-control button {\n          display: block;\n          background-color: #f39f1b;\n          border-radius: 2px;\n          box-sizing: border-box;\n          font-weight: 700; }\n    .main-container .body-wrap .foot-wrap {\n      width: 400px;\n      height: 40px;\n      margin: 20px auto; }\n\n#card-top-info {\n  position: absolute;\n  top: 76px;\n  left: 105px;\n  background-color: #fffdca;\n  border: 1px solid #facf66; }\n  #card-top-info p {\n    width: 200px;\n    height: 18px;\n    line-height: 18px;\n    padding: 6px 10px;\n    margin: 0;\n    color: #f73705;\n    font-size: 14px;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap; }\n", ""]);
+	exports.push([module.id, ".form {\n  margin: 0 auto; }\n  .form .form-control {\n    width: 100%;\n    margin: 22px 0;\n    font-size: 0.9em; }\n    .form .form-control label {\n      display: inline-block;\n      width: 100%;\n      height: 30px;\n      line-height: 30px;\n      text-align: right; }\n    .form .form-control input {\n      height: 18px;\n      padding: 6px;\n      line-height: 18px;\n      border: 1px solid #ccc;\n      color: #595959;\n      font-size: 12px; }\n    .form .form-control button {\n      width: 140px;\n      height: 36px;\n      line-height: 36px;\n      padding: 0;\n      border: 0;\n      font-size: 14px;\n      color: #fff; }\n\n.row {\n  overflow: hidden; }\n  .row > div {\n    float: left; }\n  .row .col-md-2 {\n    box-sizing: border-box;\n    width: 20%;\n    padding: 0 5px; }\n  .row .col-md-8 {\n    box-sizing: border-box;\n    width: 80%;\n    padding: 0 5px; }\n  .row .col-offset-md-2 {\n    margin-left: 20%; }\n\n.left {\n  float: left; }\n\n.right {\n  float: right; }\n\n.ui-bank-safe {\n  width: 13px;\n  height: 16px;\n  background: url(\"https://i.alipayobjects.com/i/ecmng/png/201408/3EiPVyEM6f.png\");\n  background-position: -161px -77px; }\n\n.ui-error-arrow {\n  background: url(\"https://i.alipayobjects.com/e/201209/1COYhD8EL6.png\");\n  background-position: -16px -510px; }\n\n.ui-error-cross {\n  background: url(\"https://i.alipayobjects.com/e/201209/1COYhD8EL6.png\");\n  background-position: -59px -70px; }\n\n.quote {\n  display: inline-block; }\n\n.main-container {\n  width: 100%;\n  padding-bottom: 20px; }\n  .main-container .head-wrap {\n    width: 100%; }\n    .main-container .head-wrap #head-bar {\n      width: 100%;\n      height: 28px;\n      background-color: #3D474A; }\n    .main-container .head-wrap #nav-bar .top-nav-bar {\n      width: 100%;\n      height: 76px;\n      background-color: #f6f6f6; }\n    .main-container .head-wrap #nav-bar .bottom-nav-bar {\n      width: 100%;\n      height: 32px;\n      background-color: #e3e3e3; }\n  .main-container .body-wrap {\n    background-color: #eff0f1; }\n    .main-container .body-wrap #trail-bar {\n      max-width: 990px;\n      height: 50px; }\n    .main-container .body-wrap #main-content {\n      max-width: 990px;\n      margin: 0 auto 40px;\n      padding: 30px;\n      background-color: #fff;\n      border: 1px solid #ddd; }\n      .main-container .body-wrap #main-content .notice-info {\n        width: 100%;\n        height: 35px;\n        border: 1px solid #ddd;\n        box-sizing: border-box;\n        background-color: #e5f5ff; }\n      .main-container .body-wrap #main-content .form {\n        position: relative;\n        width: 500px; }\n        .main-container .body-wrap #main-content .form .form-control input {\n          width: 170px;\n          padding-left: 10px;\n          padding-right: 40px; }\n        .main-container .body-wrap #main-content .form .form-control input.forbid-input {\n          background-color: #f2f2f2; }\n        .main-container .body-wrap #main-content .form .form-control .bank-card-input {\n          position: relative; }\n          .main-container .body-wrap #main-content .form .form-control .bank-card-input input {\n            padding-left: 20px;\n            padding-right: 30px; }\n          .main-container .body-wrap #main-content .form .form-control .bank-card-input .ui-bank-safe {\n            position: absolute;\n            top: 7px;\n            left: 10px;\n            width: 13px;\n            height: 16px; }\n        .main-container .body-wrap #main-content .form .form-control .point-info {\n          font-size: 0.8em;\n          margin: 2px 0;\n          color: #a3a3a3; }\n        .main-container .body-wrap #main-content .form .form-control .point-info.protocol-info {\n          margin: 10px 0 0 -5px; }\n          .main-container .body-wrap #main-content .form .form-control .point-info.protocol-info a {\n            color: #a3a3a3; }\n        .main-container .body-wrap #main-content .form .form-control .point-info.card-require-info a {\n          color: #058acd;\n          text-decoration: none; }\n        .main-container .body-wrap #main-content .form .form-control button {\n          display: block;\n          background-color: #f39f1b;\n          border-radius: 2px;\n          box-sizing: border-box;\n          font-weight: 700; }\n    .main-container .body-wrap .foot-wrap {\n      width: 400px;\n      height: 40px;\n      margin: 20px auto; }\n\n#card-top-info {\n  position: absolute;\n  top: 76px;\n  left: 105px;\n  display: none;\n  background-color: #fffdca;\n  border: 1px solid #facf66; }\n  #card-top-info p {\n    width: 200px;\n    height: 18px;\n    line-height: 18px;\n    padding: 6px 10px;\n    margin: 0;\n    color: #f73705;\n    font-size: 14px;\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap; }\n", ""]);
 
 	// exports
 
@@ -445,8 +444,14 @@
 
 	(function(){
 
+	  var bankInput = document.getElementById("bank-card"),
+	      topInfo = document.getElementById("card-top-info"),
+	      pElement = topInfo.getElementsByTagName("p");
+
+	  // 提供一些基本方法
 	  var method = (function () {
 	    return {
+	      // 封装事件handler
 	      EventUtil: {
 	        addHandler: function (element, type, handler) {
 	          if (element.addEventListener) {
@@ -467,48 +472,104 @@
 	          }
 	        }
 	      },
+	      // 删去字符串里所有的空格
 	      trim: function (str) {
 	        return str.replace(/\s+/g, "");
 	      },
+	      // 将字符串分割成几部分
 	      divide: function (str, pattern, replace) {
 	        return this.trim(str).replace(pattern, '$1 ');
+	      },
+	      // 切换上方提示信息显隐
+	      toggleInfo: function () {
+	        if (bankInput.value !== "") {
+	          this.showInfo();
+	        } else {
+	          this.hideInfo();
+	        }
+	      },
+	      showInfo: function () {
+	        topInfo.style.display = "block";
+	      },
+	      hideInfo: function () {
+	        topInfo.style.display = "none";
+	      },
+	      // 信息正确性提示
+	      errorNotice: function () {
+	        bankInput.style.border = "1px solid red";
+	      },
+	      rightNotice: function () {
+	        bankInput.style.border = "1px solid blue";
+	      },
+	      inputFilter: function (str) {
+	        var result = {},
+	            state = false,
+	            msg = "";
+
+	        if (str.match(/([\d]{12,19})/g)) {
+	          // 匹配成功
+	          state = true;
+	          msg = "";
+	        } else {
+	          if (str === "") {
+	            // 输入为空
+	            state = false;
+	            msg = "请填写银行卡号。";
+	          } else if (str.match(/([^\d])/g)) {
+	            // 匹配到非数字
+	            state = false;
+	            msg = "无法识别您的卡号，请填写正确的银行卡卡号。";
+	          } else {
+	            state = false;
+	            msg = "银行卡号是12－19位数字。";
+	          }
+	        }
+
+	        result.state = state;
+	        result.msg = msg;
+
+	        return result;
 	      }
 	    }
 	  })();
 
-	  var bankInput = document.getElementById("bank-card"),
-	      topInfo = document.getElementById("card-top-info"),
-	      pElement = topInfo.getElementsByTagName("p");
-
-	  function handler (event) {
+	  function inputHandler (event) {
+	    console.log("input");
+	    // 匹配每四位 数字||字母 组合
 	    var pattern = /([\d\w]{4})/g,
 	        replaceStr = "$1 ";
 	    pElement[0].innerHTML = method.divide(bankInput.value, pattern, replaceStr);
+	    method.toggleInfo();
 	  }
 
+	  function focusHandler (event) {
+	    console.log("focus");
+	    method.toggleInfo();
+	  }
+
+	  function blurHandler (event) {
+	    console.log("blur");
+	    var value = bankInput.value,
+	        result = method.inputFilter(value);
+	    method.hideInfo();
+
+	    console.log(result.msg);
+	  }
+
+	  // 添加input事件监听
 	  if (typeof bankInput.onkeyup != 'undefined') {
 	    // 支持onkeyup事件
-	    method.EventUtil.addHandler(bankInput, 'keyup', handler);
+	    method.EventUtil.addHandler(bankInput, 'keyup', inputHandler);
 	  } else if (typeof bankInput.onpropertychange != 'undefined') {
 	    // 不支持onkeyup 则降级使用 onpropertychange
-	    method.EventUtil.addHandler(bankInput, 'propertychange', handler);
+	    method.EventUtil.addHandler(bankInput, 'propertychange', inputHandler);
 	  }
+
+	  // 添加focus && blur事件监听
+	  method.EventUtil.addHandler(bankInput, 'focus', focusHandler);
+	  method.EventUtil.addHandler(bankInput, 'blur', blurHandler);
 
 	})();
-
-
-/***/ },
-/* 8 */,
-/* 9 */
-/***/ function(module, exports) {
-
-	var method = function () {
-	  return {
-	    a: function () {
-	      console.log(1);
-	    }
-	  }
-	}
 
 
 /***/ }

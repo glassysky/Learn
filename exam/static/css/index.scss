@@ -59,6 +59,9 @@ $common-width: 990px;
             padding-left: 10px;
             padding-right: 40px;
           }
+          input.forbid-input {
+            background-color: #f2f2f2;
+          }
           .bank-card-input {
             position: relative;
             input {
@@ -114,6 +117,7 @@ $common-width: 990px;
   position: absolute;
   top: 76px;
   left: 105px;
+  display: none;
   background-color: #fffdca;
   border: 1px solid #facf66;
   p {

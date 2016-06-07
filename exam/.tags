@@ -10,14 +10,6 @@ module.exports.entry	/Users/cuitianhao/Github/learn/exam/webpack.config.js	/^mod
 .col-offset-md-2	/Users/cuitianhao/Github/learn/exam/static/css/layout.scss	/^  .col-offset-md-2 {$/;"	function	line:26
 .left	/Users/cuitianhao/Github/learn/exam/static/css/layout.scss	/^.left {$/;"	function	line:31
 .right	/Users/cuitianhao/Github/learn/exam/static/css/layout.scss	/^.right {$/;"	function	line:35
-input-height	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^$input-height: 30px;$/;"	function	line:1
-input-border	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^$input-border: 1px;$/;"	function	line:2
-.form	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^.form {$/;"	function	line:4
-.form-control	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^  .form-control {$/;"	function	line:6
-label	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    label {$/;"	function	line:10
-input	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    input {$/;"	function	line:17
-button	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    button {$/;"	function	line:25
-input.forbid-input	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    input.forbid-input {$/;"	function	line:34
 html	/Users/cuitianhao/Github/learn/exam/index.html	/^<html lang="zh">$/;"	function	line:2
 head	/Users/cuitianhao/Github/learn/exam/index.html	/^<head>$/;"	function	line:3
 meta	/Users/cuitianhao/Github/learn/exam/index.html	/^  <meta charset="UTF-8">$/;"	function	line:4
@@ -69,13 +61,13 @@ div	/Users/cuitianhao/Github/learn/exam/index.html	/^      <div class="foot-wrap
 script	/Users/cuitianhao/Github/learn/exam/index.html	/^  <script src='.\/dist\/app.js'><\/script>$/;"	function	line:73
 method	/Users/cuitianhao/Github/learn/exam/static/js/method.js	/^var method = function () {$/;"	function	line:1
 method	/Users/cuitianhao/Github/learn/exam/static/js/method.js	/^var method = function () {$/;"	function	line:1
-addHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^        addHandler: function (element, type, handler) {$/;"	function	line:6
-removeHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^        removeHandler: function (element, type, handler) {$/;"	function	line:15
-trim	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      trim: function (str) {$/;"	function	line:25
-divide	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      divide: function (str, pattern, replace) {$/;"	function	line:28
-bankInput	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  var bankInput = document.getElementById("bank-card"),$/;"	variable	line:34
-handler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function handler (event) {$/;"	function	line:38
-handler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function handler (event) {$/;"	function	line:38
+input-height	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^$input-height: 30px;$/;"	function	line:1
+input-border	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^$input-border: 1px;$/;"	function	line:2
+.form	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^.form {$/;"	function	line:4
+.form-control	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^  .form-control {$/;"	function	line:6
+label	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    label {$/;"	function	line:10
+input	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    input {$/;"	function	line:17
+button	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    button {$/;"	function	line:25
 common-width	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^$common-width: 990px;$/;"	function	line:5
 .quote	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^.quote {$/;"	function	line:7
 .main-container	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^.main-container {$/;"	function	line:11
@@ -91,15 +83,32 @@ common-width	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^$common
 .form	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^      .form {$/;"	function	line:53
 .form-control	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^        .form-control {$/;"	function	line:56
 input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          input {$/;"	function	line:57
-.bank-card-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .bank-card-input {$/;"	function	line:62
-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            input {$/;"	function	line:64
-.ui-bank-safe	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            .ui-bank-safe {$/;"	function	line:68
-.point-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info {$/;"	function	line:76
-.point-info.protocol-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info.protocol-info {$/;"	function	line:82
-a	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            a {$/;"	function	line:84
-.point-info.card-require-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info.card-require-info {$/;"	function	line:89
-a	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            a {$/;"	function	line:90
-button	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          button {$/;"	function	line:95
-.foot-wrap	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .foot-wrap {$/;"	function	line:105
-#card-top-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#card-top-info {$/;"	function	line:113
-p	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  p {$/;"	function	line:119
+input.forbid-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          input.forbid-input {$/;"	function	line:62
+.bank-card-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .bank-card-input {$/;"	function	line:65
+input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            input {$/;"	function	line:67
+.ui-bank-safe	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            .ui-bank-safe {$/;"	function	line:71
+.point-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info {$/;"	function	line:79
+.point-info.protocol-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info.protocol-info {$/;"	function	line:85
+a	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            a {$/;"	function	line:87
+.point-info.card-require-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info.card-require-info {$/;"	function	line:92
+a	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            a {$/;"	function	line:93
+button	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          button {$/;"	function	line:98
+.foot-wrap	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .foot-wrap {$/;"	function	line:108
+#card-top-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#card-top-info {$/;"	function	line:116
+p	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  p {$/;"	function	line:123
+addHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^        addHandler: function (element, type, handler) {$/;"	function	line:12
+removeHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^        removeHandler: function (element, type, handler) {$/;"	function	line:21
+trim	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      trim: function (str) {$/;"	function	line:32
+divide	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      divide: function (str, pattern, replace) {$/;"	function	line:36
+toggleInfo	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      toggleInfo: function () {$/;"	function	line:40
+showInfo	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      showInfo: function () {$/;"	function	line:47
+hideInfo	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      hideInfo: function () {$/;"	function	line:50
+errorNotice	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      errorNotice: function () {$/;"	function	line:54
+rightNotice	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      rightNotice: function () {$/;"	function	line:57
+inputFilter	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^      inputFilter: function (str) {$/;"	function	line:60
+inputHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function inputHandler (event) {$/;"	function	line:92
+inputHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function inputHandler (event) {$/;"	function	line:92
+focusHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function focusHandler (event) {$/;"	function	line:101
+focusHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function focusHandler (event) {$/;"	function	line:101
+blurHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function blurHandler (event) {$/;"	function	line:106
+blurHandler	/Users/cuitianhao/Github/learn/exam/static/js/index.js	/^  function blurHandler (event) {$/;"	function	line:106
