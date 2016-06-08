@@ -20,50 +20,54 @@
         <div class="notice-info"></div>
         <div class="form">
           <div class="form-control row">
-            <div class="col-md-2 left">
+            <div class="form-label left">
               <label for="">真实姓名</label>
             </div>
-            <div class="col-md-8">
+            <div class="form-input">
               <input type="text" class="forbid-input" value="张三" readonly>
             </div>
           </div>
           <div class="form-control row">
-            <div class="col-md-2 left">
+            <div class="form-label left">
               <label for="">身份证号</label>
             </div>
-            <div class="col-md-8">
+            <div class="form-input">
               <input type="text" class="forbid-input" value="2****************8" readonly>
             </div>
           </div>
-          <div class="form-control row">
-            <div class="col-md-2 left">
+          <div class="form-control row form-bank">
+            <div class="form-label left">
               <label for="">银行卡卡号</label>
             </div>
-            <div class="col-md-8 bank-card-input">
+            <div class="bank-card-input form-input">
               <input type="text" id="bank-card">
               <div class="ui-bank-safe"></div>
               <p class="point-info card-require-info">输入卡号后会智能识别银行和卡种。<a href="">银行卡要求</a></p>
-              <div id="card-warn-info"></div>
+              <div id="card-warn-info" class="info info-warning">
+                <span class="ui-icon ui-error-arrow"></span>
+                <p class="ui-error-cross"><span id="warn-info-text">中文测试</span></p>
+              </div>
+            </div>
+            <div id="card-top-info" class="info info-notice">
+              <p></p>
             </div>
           </div>
           <div class="form-control row">
-            <div class="col-md-2 left">
+            <div class="form-label left">
               <label for="">手机号码</label>
             </div>
-            <div class="col-md-8">
+            <div class="form-input">
               <input type="text">
               <p class="point-info">请填写您在银行预留的手机号码，以验证银行卡号是否属于您本人</p>
             </div>
           </div>
           <div class="form-control row">
-            <div class="col-md-8 col-offset-md-2">
+            <div class="">
               <button>同意协议并确定</button>
               <p class="point-info protocol-info"><span class="quote-left quote">《</span><a href="">支付宝快捷支付服务协议</a><span class="quote-right quote">》</span></p>
             </div>
           </div>
-          <div id="card-top-info">
-            <p></p>
-          </div>
+
         </div>
       </div>
       <div class="foot-wrap">

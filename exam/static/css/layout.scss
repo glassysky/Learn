@@ -18,13 +18,39 @@
   .col-md-2 {
     @include col-md(2);
   }
-
+  .col-md-3 {
+    @include col-md(3);
+  }
+  .col-md-4 {
+    @include col-md(4);
+  }
+  .col-md-5 {
+    @include col-md(5);
+  }
+  .col-md-6 {
+    @include col-md(6);
+  }
+  .col-md-7 {
+    @include col-md(7);
+  }
   .col-md-8 {
     @include col-md(8);
   }
 
   .col-offset-md-2 {
-    @include col-offset-md(2)
+    @include col-offset-md(2);
+  }
+  .col-offset-md-3 {
+    @include col-offset-md(3);
+  }
+  .col-offset-md-4 {
+    @include col-offset-md(4);
+  }
+  .col-offset-md-5 {
+    @include col-offset-md(5);
+  }
+  .col-offset-md-6 {
+    @include col-offset-md(6);
   }
 }
 

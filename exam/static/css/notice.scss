@@ -1,0 +1,24 @@
+@mixin p () {
+  height: 18px;
+  line-height: 18px;
+  font-size: 14px;
+  margin: 0;
+  padding: 6px 10px;
+}
+
+.info.info-notice {
+  background-color: #fffdca;
+  border: 1px solid #facf66;
+  p {
+    @include p();
+  }
+}
+
+.info.info-warning {
+  background-color: #fff5f5;
+  border: 1px solid #ff0000;
+  border-radius: 2px;
+  p {
+    @include p();
+  }
+}

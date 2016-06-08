@@ -1,6 +1,7 @@
 @import 'form.scss';
 @import 'layout.scss';
 @import 'ui.scss';
+@import 'notice.scss';
 
 $common-width: 990px;
 
@@ -10,6 +11,7 @@ $common-width: 990px;
 
 .main-container {
   width: 100%;
+  min-width: 990px;
   padding-bottom: 20px;
   .head-wrap {
     width: 100%;
@@ -43,6 +45,7 @@ $common-width: 990px;
       padding: 30px;
       background-color: #fff;
       border: 1px solid #ddd;
+      box-sizing: border-box;
       .notice-info {
         width: 100%;
         height: 35px;
@@ -52,8 +55,14 @@ $common-width: 990px;
       }
       .form {
         position: relative;
-        width: 500px;
+        width: 100%;
         .form-control {
+          width: auto;
+          padding-left: 320px;
+          label {
+            display: inline-block;
+            width: 100%;
+          }
           input {
             width: 170px;
             padding-left: 10px;
@@ -62,19 +71,18 @@ $common-width: 990px;
           input.forbid-input {
             background-color: #f2f2f2;
           }
-          .bank-card-input {
-            position: relative;
-            input {
-              padding-left: 20px;
-              padding-right: 30px;
-            }
-            .ui-bank-safe {
-              position: absolute;
-              top: ($input-height - $ui-icon-height) / 2;
-              left: 10px;
-              width: 13px;
-              height: 16px;
-            }
+          button {
+            display: block;
+            background-color: #f39f1b;
+            border-radius: 2px;
+            box-sizing: border-box;
+            font-weight: 700;
+          }
+          .form-label {
+            box-sizing: border-box;
+            width: 320px;
+            padding-right: 10px;
+            margin-left: -320px;
           }
           .point-info {
             font-size: 0.8em;
@@ -95,12 +103,23 @@ $common-width: 990px;
               text-decoration: none;
             }
           }
-          button {
-            display: block;
-            background-color: #f39f1b;
-            border-radius: 2px;
-            box-sizing: border-box;
-            font-weight: 700;
+        }
+        .form-bank {
+          position: relative;
+          .bank-card-input {
+            position: relative;
+            input {
+              padding-left: 20px;
+              padding-right: 30px;
+            }
+            .ui-bank-safe {
+              position: absolute;
+              top: ($input-height - 16px) / 2;
+              left: 10px;
+              width: 13px;
+              height: 16px;
+            }
+
           }
         }
       }
@@ -115,21 +134,28 @@ $common-width: 990px;
 
 #card-top-info {
   position: absolute;
-  top: 76px;
-  left: 105px;
   display: none;
-  background-color: #fffdca;
-  border: 1px solid #facf66;
   p {
     width: 200px;
-    height: 18px;
-    line-height: 18px;
-    padding: 6px 10px;
-    margin: 0;
     color: #f73705;
-    font-size: 14px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+}
+
+#card-warn-info {
+  position: absolute;
+  top: 0;
+  left: 240px;
+  .ui-icon {
+    position: absolute;
+    top: 10px;
+    left: -7px;
+  }
+  p {
+    text-indent: 14px;
+    color: #ff0808;
+    font-size: 12px;
   }
 }

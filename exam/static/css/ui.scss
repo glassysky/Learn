@@ -1,18 +1,18 @@
-$ui-icon-width: 13px;
-$ui-icon-height: 16px;
-
 .ui-bank-safe {
-  width: $ui-icon-width;
-  height: $ui-icon-height;
-  background: url("https://i.alipayobjects.com/i/ecmng/png/201408/3EiPVyEM6f.png");
+  width: 13px;
+  height: 16px;
+  background: url("https://i.alipayobjects.com/i/ecmng/png/201408/3EiPVyEM6f.png") no-repeat;
   background-position: -161px -77px;
 }
 .ui-error-arrow {
-  background: url("https://i.alipayobjects.com/e/201209/1COYhD8EL6.png");
+  display: inline-block;
+  width: 7px;
+  height: 10px;
+  background: url("https://i.alipayobjects.com/e/201209/1COYhD8EL6.png") no-repeat;
   background-position: -16px -510px;
 }
 
 .ui-error-cross {
-  background: url("https://i.alipayobjects.com/e/201209/1COYhD8EL6.png");
+  background: url("https://i.alipayobjects.com/e/201209/1COYhD8EL6.png") no-repeat;
   background-position: -59px -70px;
 }

@@ -2,7 +2,8 @@
 
   var bankInput = document.getElementById("bank-card"),
       topInfo = document.getElementById("card-top-info"),
-      pElement = topInfo.getElementsByTagName("p");
+      pElement = topInfo.getElementsByTagName("p"),
+      warnText = document.getElementById("warn-info-text");
 
   // 提供一些基本方法
   var method = (function () {
@@ -90,7 +91,6 @@
   })();
 
   function inputHandler (event) {
-    console.log("input");
     // 匹配每四位 数字||字母 组合
     var pattern = /([\d\w]{4})/g,
         replaceStr = "$1 ";
@@ -99,15 +99,17 @@
   }
 
   function focusHandler (event) {
-    console.log("focus");
     method.toggleInfo();
   }
 
   function blurHandler (event) {
-    console.log("blur");
     var value = bankInput.value,
         result = method.inputFilter(value);
     method.hideInfo();
+
+    if (!result.state) {
+      warnText.innerHTML = result.msg;
+    }
 
     console.log(result.msg);
   }
