@@ -76,43 +76,6 @@ label	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    label {$/;"
 input	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    input {$/;"	function	line:14
 button	/Users/cuitianhao/Github/learn/exam/static/css/form.scss	/^    button {$/;"	function	line:22
 题目理解	/Users/cuitianhao/Github/learn/exam/README.md	/^###题目理解$/;"	function	line:1
-common-width	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^$common-width: 990px;$/;"	function	line:6
-.quote	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^.quote {$/;"	function	line:8
-.main-container	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^.main-container {$/;"	function	line:12
-.head-wrap	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  .head-wrap {$/;"	function	line:16
-.head-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .head-bar {$/;"	function	line:18
-.nav-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .nav-bar {$/;"	function	line:23
-.top-nav-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^      .top-nav-bar {$/;"	function	line:24
-.bottom-nav-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^      .bottom-nav-bar {$/;"	function	line:29
-.body-wrap	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  .body-wrap {$/;"	function	line:36
-.trail-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .trail-bar {$/;"	function	line:38
-.main-content	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .main-content {$/;"	function	line:42
-.notice-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^      .notice-info {$/;"	function	line:49
-.form	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^      .form {$/;"	function	line:56
-.form-control	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^        .form-control {$/;"	function	line:59
-label	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          label {$/;"	function	line:62
-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          input {$/;"	function	line:66
-input.forbid-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          input.forbid-input {$/;"	function	line:71
-button	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          button {$/;"	function	line:74
-.form-label	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .form-label {$/;"	function	line:81
-.form-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .form-input {$/;"	function	line:87
-.point-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info {$/;"	function	line:90
-.point-info.protocol-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info.protocol-info {$/;"	function	line:96
-a	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            a {$/;"	function	line:98
-.point-info.card-require-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info.card-require-info {$/;"	function	line:103
-a	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            a {$/;"	function	line:104
-.form-bank	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^        .form-bank {$/;"	function	line:110
-.bank-card-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .bank-card-input {$/;"	function	line:112
-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            input {$/;"	function	line:114
-.ui-bank-safe	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            .ui-bank-safe {$/;"	function	line:118
-.foot-wrap	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .foot-wrap {$/;"	function	line:129
-#card-top-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#card-top-info {$/;"	function	line:137
-p	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  p {$/;"	function	line:142
-#card-warn-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#card-warn-info {$/;"	function	line:151
-.ui-icon	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  .ui-icon {$/;"	function	line:156
-p	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  p {$/;"	function	line:161
-#card-correct-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#card-correct-info {$/;"	function	line:168
-#ui-bank-icon-show	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#ui-bank-icon-show {$/;"	function	line:178
 html	/Users/cuitianhao/Github/learn/exam/index.html	/^<html lang="zh">$/;"	function	line:2
 head	/Users/cuitianhao/Github/learn/exam/index.html	/^<head>$/;"	function	line:3
 meta	/Users/cuitianhao/Github/learn/exam/index.html	/^  <meta charset="UTF-8">$/;"	function	line:4
@@ -167,3 +130,40 @@ div	/Users/cuitianhao/Github/learn/exam/index.html	/^          <div id="card-top
 p	/Users/cuitianhao/Github/learn/exam/index.html	/^            <p><\/p>$/;"	function	line:92
 div	/Users/cuitianhao/Github/learn/exam/index.html	/^      <div class="foot-wrap">$/;"	function	line:98
 script	/Users/cuitianhao/Github/learn/exam/index.html	/^  <script src='.\/dist\/app.js'><\/script>$/;"	function	line:104
+common-width	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^$common-width: 990px;$/;"	function	line:6
+.quote	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^.quote {$/;"	function	line:8
+.main-container	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^.main-container {$/;"	function	line:12
+.head-wrap	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  .head-wrap {$/;"	function	line:16
+.head-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .head-bar {$/;"	function	line:18
+.nav-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .nav-bar {$/;"	function	line:23
+.top-nav-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^      .top-nav-bar {$/;"	function	line:24
+.bottom-nav-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^      .bottom-nav-bar {$/;"	function	line:29
+.body-wrap	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  .body-wrap {$/;"	function	line:36
+.trail-bar	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .trail-bar {$/;"	function	line:38
+.main-content	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .main-content {$/;"	function	line:42
+.notice-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^      .notice-info {$/;"	function	line:49
+.form	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^      .form {$/;"	function	line:56
+.form-control	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^        .form-control {$/;"	function	line:59
+label	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          label {$/;"	function	line:63
+input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          input {$/;"	function	line:67
+input.forbid-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          input.forbid-input {$/;"	function	line:72
+button	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          button {$/;"	function	line:75
+.form-label	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .form-label {$/;"	function	line:82
+.form-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .form-input {$/;"	function	line:88
+.point-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info {$/;"	function	line:91
+.point-info.protocol-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info.protocol-info {$/;"	function	line:97
+a	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            a {$/;"	function	line:99
+.point-info.card-require-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .point-info.card-require-info {$/;"	function	line:104
+a	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            a {$/;"	function	line:105
+.form-bank	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^        .form-bank {$/;"	function	line:111
+.bank-card-input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^          .bank-card-input {$/;"	function	line:113
+input	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            input {$/;"	function	line:115
+.ui-bank-safe	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^            .ui-bank-safe {$/;"	function	line:119
+.foot-wrap	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^    .foot-wrap {$/;"	function	line:130
+#card-top-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#card-top-info {$/;"	function	line:138
+p	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  p {$/;"	function	line:143
+#card-warn-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#card-warn-info {$/;"	function	line:152
+.ui-icon	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  .ui-icon {$/;"	function	line:157
+p	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^  p {$/;"	function	line:162
+#card-correct-info	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#card-correct-info {$/;"	function	line:169
+#ui-bank-icon-show	/Users/cuitianhao/Github/learn/exam/static/css/index.scss	/^#ui-bank-icon-show {$/;"	function	line:179
