@@ -6,19 +6,25 @@
   <script src="//cdn.bootcss.com/es5-shim/4.5.8/es5-shim.js"></script>
 </head>
 <body>
+  <!-- main-container -->
   <div class="main-container">
+    <!-- head-wrap -->
     <div class="head-wrap">
-      <div id="head-bar"></div>
-      <div id="nav-bar">
+      <div class="head-bar"></div>
+      <div class="nav-bar">
         <div class="top-nav-bar"></div>
         <div class="bottom-nav-bar"></div>
       </div>
     </div>
+    <!-- head-wrap over -->
+    <!-- body-wrap -->
     <div class="body-wrap">
-      <div id="trail-bar"></div>
-      <div id="main-content">
+      <div class="trail-bar"></div>
+      <div class="main-content">
         <div class="notice-info"></div>
+        <!-- form -->
         <div class="form">
+          <!-- form name -->
           <div class="form-control row">
             <div class="form-label left">
               <label for="">真实姓名</label>
@@ -27,6 +33,8 @@
               <input type="text" class="forbid-input" value="张三" readonly>
             </div>
           </div>
+          <!-- form name over -->
+          <!-- 身份证号 -->
           <div class="form-control row">
             <div class="form-label left">
               <label for="">身份证号</label>
@@ -35,24 +43,32 @@
               <input type="text" class="forbid-input" value="2****************8" readonly>
             </div>
           </div>
+          <!-- 身份证号 -->
+          <!-- 银行卡号 -->
           <div class="form-control row form-bank">
             <div class="form-label left">
               <label for="">银行卡卡号</label>
             </div>
             <div class="bank-card-input form-input">
               <input type="text" id="bank-card">
+              <!-- 锁头图标 -->
               <div class="ui-bank-safe"></div>
+              <!-- 银行商标 -->
               <div class="ui-bank-icon" id="ui-bank-icon-show"></div>
               <p class="point-info card-require-info">输入卡号后会智能识别银行和卡种。<a href="">银行卡要求</a></p>
+              <!-- 错误提示框 -->
               <div id="card-warn-info" class="info info-warning">
                 <span class="ui-icon ui-error-arrow"></span>
                 <p class="ui-error-cross" id="warn-info-text"></p>
               </div>
+              <!-- 正确提示图标 -->
               <div id="card-correct-info">
                 <span class="ui-icon ui-correct-icon"></span>
               </div>
             </div>
           </div>
+          <!-- 银行卡号 -->
+          <!-- 手机号码 -->
           <div class="form-control row">
             <div class="form-label left">
               <label for="">手机号码</label>
@@ -62,21 +78,29 @@
               <p class="point-info">请填写您在银行预留的手机号码，以验证银行卡号是否属于您本人</p>
             </div>
           </div>
+          <!-- 手机号码 -->
+          <!-- 同意按钮 -->
           <div class="form-control row">
             <div class="">
               <button>同意协议并确定</button>
               <p class="point-info protocol-info"><span class="quote-left quote">《</span><a href="">支付宝快捷支付服务协议</a><span class="quote-right quote">》</span></p>
             </div>
           </div>
+          <!-- 同意按钮 -->
+          <!-- 银行卡号上方提示框 -->
           <div id="card-top-info" class="info info-notice">
             <p></p>
           </div>
+          <!-- 银行卡号上方提示框 -->
         </div>
+        <!-- form over -->
       </div>
       <div class="foot-wrap">
       </div>
     </div>
+    <!-- body-wrap over -->
   </div>
+  <!-- main-container over -->
   <script src='./dist/app.js'></script>
 </body>
 </html>

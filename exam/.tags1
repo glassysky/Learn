@@ -4,20 +4,57 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-name	/Users/cuitianhao/Github/learn/exam/package.json	/^  "name": "exam",$/;"	function	line:2
-version	/Users/cuitianhao/Github/learn/exam/package.json	/^  "version": "1.0.0",$/;"	function	line:3
-description	/Users/cuitianhao/Github/learn/exam/package.json	/^  "description": "",$/;"	function	line:4
-main	/Users/cuitianhao/Github/learn/exam/package.json	/^  "main": "app.js",$/;"	function	line:5
-scripts	/Users/cuitianhao/Github/learn/exam/package.json	/^  "scripts": {$/;"	function	line:6
-build	/Users/cuitianhao/Github/learn/exam/package.json	/^    "build": "webpack -p --watch",$/;"	function	line:7
-test	/Users/cuitianhao/Github/learn/exam/package.json	/^    "test": "echo \\"Error: no test specified\\" && exit 1"$/;"	function	line:8
-author	/Users/cuitianhao/Github/learn/exam/package.json	/^  "author": "",$/;"	function	line:10
-license	/Users/cuitianhao/Github/learn/exam/package.json	/^  "license": "ISC",$/;"	function	line:11
-devDependencies	/Users/cuitianhao/Github/learn/exam/package.json	/^  "devDependencies": {$/;"	function	line:12
-css-loader	/Users/cuitianhao/Github/learn/exam/package.json	/^    "css-loader": "^0.23.1",$/;"	function	line:13
-node-sass	/Users/cuitianhao/Github/learn/exam/package.json	/^    "node-sass": "^3.7.0",$/;"	function	line:14
-sass-loader	/Users/cuitianhao/Github/learn/exam/package.json	/^    "sass-loader": "^3.2.0",$/;"	function	line:15
-style-loader	/Users/cuitianhao/Github/learn/exam/package.json	/^    "style-loader": "^0.13.1",$/;"	function	line:16
-webpack	/Users/cuitianhao/Github/learn/exam/package.json	/^    "webpack": "^1.13.1"$/;"	function	line:17
-dependencies	/Users/cuitianhao/Github/learn/exam/package.json	/^  "dependencies": {$/;"	function	line:19
-normalize.css	/Users/cuitianhao/Github/learn/exam/package.json	/^    "normalize.css": "^4.1.1"$/;"	function	line:20
+html	/Users/cuitianhao/Github/learn/exam/index.html	/^<html lang="zh">$/;"	function	line:2
+head	/Users/cuitianhao/Github/learn/exam/index.html	/^<head>$/;"	function	line:3
+meta	/Users/cuitianhao/Github/learn/exam/index.html	/^  <meta charset="UTF-8">$/;"	function	line:4
+title	/Users/cuitianhao/Github/learn/exam/index.html	/^  <title>Document<\/title>$/;"	function	line:5
+script	/Users/cuitianhao/Github/learn/exam/index.html	/^  <script src="\/\/cdn.bootcss.com\/es5-shim\/4.5.8\/es5-shim.js"><\/script>$/;"	function	line:6
+body	/Users/cuitianhao/Github/learn/exam/index.html	/^<body>$/;"	function	line:8
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^  <div class="main-container">$/;"	function	line:10
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^    <div class="head-wrap">$/;"	function	line:12
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^      <div class="head-bar"><\/div>$/;"	function	line:13
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^      <div class="nav-bar">$/;"	function	line:14
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^        <div class="top-nav-bar"><\/div>$/;"	function	line:15
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^        <div class="bottom-nav-bar"><\/div>$/;"	function	line:16
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^    <div class="body-wrap">$/;"	function	line:21
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^      <div class="trail-bar"><\/div>$/;"	function	line:22
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^      <div class="main-content">$/;"	function	line:23
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^        <div class="notice-info"><\/div>$/;"	function	line:24
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^        <div class="form">$/;"	function	line:26
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^          <div class="form-control row">$/;"	function	line:28
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^            <div class="form-label left">$/;"	function	line:29
+label	/Users/cuitianhao/Github/learn/exam/index.html	/^              <label for="">真实姓名<\/label>$/;"	function	line:30
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^            <div class="form-input">$/;"	function	line:32
+input	/Users/cuitianhao/Github/learn/exam/index.html	/^              <input type="text" class="forbid-input" value="张三" readonly>$/;"	function	line:33
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^          <div class="form-control row">$/;"	function	line:38
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^            <div class="form-label left">$/;"	function	line:39
+label	/Users/cuitianhao/Github/learn/exam/index.html	/^              <label for="">身份证号<\/label>$/;"	function	line:40
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^            <div class="form-input">$/;"	function	line:42
+input	/Users/cuitianhao/Github/learn/exam/index.html	/^              <input type="text" class="forbid-input" value="2****************8" readonly>$/;"	function	line:43
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^          <div class="form-control row form-bank">$/;"	function	line:48
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^            <div class="form-label left">$/;"	function	line:49
+label	/Users/cuitianhao/Github/learn/exam/index.html	/^              <label for="">银行卡卡号<\/label>$/;"	function	line:50
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^            <div class="bank-card-input form-input">$/;"	function	line:52
+input	/Users/cuitianhao/Github/learn/exam/index.html	/^              <input type="text" id="bank-card">$/;"	function	line:53
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^              <div class="ui-bank-safe"><\/div>$/;"	function	line:55
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^              <div class="ui-bank-icon" id="ui-bank-icon-show"><\/div>$/;"	function	line:57
+p	/Users/cuitianhao/Github/learn/exam/index.html	/^              <p class="point-info card-require-info">输入卡号后会智能识别银行和卡种。<a href="">银行卡要求<\/a><\/p>$/;"	function	line:58
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^              <div id="card-warn-info" class="info info-warning">$/;"	function	line:60
+span	/Users/cuitianhao/Github/learn/exam/index.html	/^                <span class="ui-icon ui-error-arrow"><\/span>$/;"	function	line:61
+p	/Users/cuitianhao/Github/learn/exam/index.html	/^                <p class="ui-error-cross" id="warn-info-text"><\/p>$/;"	function	line:62
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^              <div id="card-correct-info">$/;"	function	line:65
+span	/Users/cuitianhao/Github/learn/exam/index.html	/^                <span class="ui-icon ui-correct-icon"><\/span>$/;"	function	line:66
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^          <div class="form-control row">$/;"	function	line:72
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^            <div class="form-label left">$/;"	function	line:73
+label	/Users/cuitianhao/Github/learn/exam/index.html	/^              <label for="">手机号码<\/label>$/;"	function	line:74
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^            <div class="form-input">$/;"	function	line:76
+input	/Users/cuitianhao/Github/learn/exam/index.html	/^              <input type="text">$/;"	function	line:77
+p	/Users/cuitianhao/Github/learn/exam/index.html	/^              <p class="point-info">请填写您在银行预留的手机号码，以验证银行卡号是否属于您本人<\/p>$/;"	function	line:78
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^          <div class="form-control row">$/;"	function	line:83
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^            <div class="">$/;"	function	line:84
+button	/Users/cuitianhao/Github/learn/exam/index.html	/^              <button>同意协议并确定<\/button>$/;"	function	line:85
+p	/Users/cuitianhao/Github/learn/exam/index.html	/^              <p class="point-info protocol-info"><span class="quote-left quote">《<\/span><a href="">支付宝快捷支付服务协议<\/a><span class="quote-right quote">》<\/span><\/p>$/;"	function	line:86
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^          <div id="card-top-info" class="info info-notice">$/;"	function	line:91
+p	/Users/cuitianhao/Github/learn/exam/index.html	/^            <p><\/p>$/;"	function	line:92
+div	/Users/cuitianhao/Github/learn/exam/index.html	/^      <div class="foot-wrap">$/;"	function	line:98
+script	/Users/cuitianhao/Github/learn/exam/index.html	/^  <script src='.\/dist\/app.js'><\/script>$/;"	function	line:104
