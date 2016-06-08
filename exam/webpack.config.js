@@ -20,5 +20,12 @@ module.exports = {
         loader: "style!css!sass"
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+          warnings: false
+        }
+    })
+  ]
 }

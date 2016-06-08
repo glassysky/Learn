@@ -42,14 +42,15 @@
             <div class="bank-card-input form-input">
               <input type="text" id="bank-card">
               <div class="ui-bank-safe"></div>
+              <div class="ui-bank-icon" id="ui-bank-icon-show"></div>
               <p class="point-info card-require-info">输入卡号后会智能识别银行和卡种。<a href="">银行卡要求</a></p>
               <div id="card-warn-info" class="info info-warning">
                 <span class="ui-icon ui-error-arrow"></span>
-                <p class="ui-error-cross"><span id="warn-info-text">中文测试</span></p>
+                <p class="ui-error-cross" id="warn-info-text"></p>
               </div>
-            </div>
-            <div id="card-top-info" class="info info-notice">
-              <p></p>
+              <div id="card-correct-info">
+                <span class="ui-icon ui-correct-icon"></span>
+              </div>
             </div>
           </div>
           <div class="form-control row">
@@ -67,7 +68,9 @@
               <p class="point-info protocol-info"><span class="quote-left quote">《</span><a href="">支付宝快捷支付服务协议</a><span class="quote-right quote">》</span></p>
             </div>
           </div>
-
+          <div id="card-top-info" class="info info-notice">
+            <p></p>
+          </div>
         </div>
       </div>
       <div class="foot-wrap">

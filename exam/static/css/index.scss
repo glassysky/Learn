@@ -84,6 +84,9 @@ $common-width: 990px;
             padding-right: 10px;
             margin-left: -320px;
           }
+          .form-input {
+            width: 100%;
+          }
           .point-info {
             font-size: 0.8em;
             margin: 2px 0;
@@ -115,11 +118,15 @@ $common-width: 990px;
             .ui-bank-safe {
               position: absolute;
               top: ($input-height - 16px) / 2;
-              left: 10px;
+              left: 5px;
               width: 13px;
               height: 16px;
             }
-
+            #ui-bank-icon-show {
+              position: absolute;
+              top: 9px;
+              left: 195px;
+            }
           }
         }
       }
@@ -134,6 +141,8 @@ $common-width: 990px;
 
 #card-top-info {
   position: absolute;
+  left: 320px;
+  top: 76px;
   display: none;
   p {
     width: 200px;
@@ -146,6 +155,7 @@ $common-width: 990px;
 
 #card-warn-info {
   position: absolute;
+  display: none;
   top: 0;
   left: 240px;
   .ui-icon {
@@ -158,4 +168,14 @@ $common-width: 990px;
     color: #ff0808;
     font-size: 12px;
   }
+}
+
+#card-correct-info {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 225px;
+  box-sizing: border-box;
+  height: 32px;
+  padding: 7px;
 }
