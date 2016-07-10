@@ -17,6 +17,8 @@
 		13C7D4041D312DDB00FBBECF /* myGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C7D4031D312DDB00FBBECF /* myGameUITests.m */; };
 		13C7D4211D324A7B00FBBECF /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C7D41F1D324A7B00FBBECF /* AboutViewController.m */; };
 		13C7D4221D324A7B00FBBECF /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C7D4201D324A7B00FBBECF /* AboutViewController.xib */; };
+		13C7D42E1D327AC100FBBECF /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 13C7D42C1D327AC100FBBECF /* background.jpeg */; };
+		13C7D42F1D327AC100FBBECF /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C7D42D1D327AC100FBBECF /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		13C7D41E1D324A7B00FBBECF /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		13C7D41F1D324A7B00FBBECF /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		13C7D4201D324A7B00FBBECF /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		13C7D42C1D327AC100FBBECF /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+		13C7D42D1D327AC100FBBECF /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		13C7D3DD1D312DDB00FBBECF /* myGame */ = {
 			isa = PBXGroup;
 			children = (
+				13C7D42B1D327AC100FBBECF /* source */,
 				13C7D41E1D324A7B00FBBECF /* AboutViewController.h */,
 				13C7D41F1D324A7B00FBBECF /* AboutViewController.m */,
 				13C7D4201D324A7B00FBBECF /* AboutViewController.xib */,
@@ -146,6 +151,15 @@
 				13C7D4051D312DDB00FBBECF /* Info.plist */,
 			);
 			path = myGameUITests;
+			sourceTree = "<group>";
+		};
+		13C7D42B1D327AC100FBBECF /* source */ = {
+			isa = PBXGroup;
+			children = (
+				13C7D42C1D327AC100FBBECF /* background.jpeg */,
+				13C7D42D1D327AC100FBBECF /* button.png */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C7D3EE1D312DDB00FBBECF /* LaunchScreen.storyboard in Resources */,
+				13C7D42F1D327AC100FBBECF /* button.png in Resources */,
 				13C7D3EB1D312DDB00FBBECF /* Assets.xcassets in Resources */,
 				13C7D4221D324A7B00FBBECF /* AboutViewController.xib in Resources */,
 				13C7D3E91D312DDB00FBBECF /* Main.storyboard in Resources */,
+				13C7D42E1D327AC100FBBECF /* background.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
