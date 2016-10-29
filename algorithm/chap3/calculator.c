@@ -8,46 +8,52 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include<ctype.h>
 int main() {
     char s[100];
     int l = 0;
     int a = 0, b = 0;
     int result = 0;
     int mark = 0;
-    while(scanf("%s", s) != EOF) {
-        printf("%s\n", s);
-        l = strlen(s);
-        for(int i = 0; i < l; i++) {
-            if (mark != 0) {
-                b = b * 10 + atoi(&s[i]);
-                continue;
+    char sign;
+    fgets(s, sizeof(s), stdin);
+    l = strlen(s);
+    for(int i = 0; i < l; i++) {
+        if (mark != 0) { 
+            if (isdigit(s[i])) {
+                b = (int)(s[i] - '0') + b * 10;
+            }
+        } else {
+            if (isdigit(s[i])) {
+                a = (int)(s[i] - '0') + a * 10;
             } else {
-                if (s[i] >= '0' && s[i] <= '9') {
-                     a = a * 10 + atoi(&s[i]);
-                } else {
-                     mark = i;
+                if (s[i] == '+' || s[i] == '-' || s[i] == '*') {
+                    mark = i;
+                    sign = s[i];
                 }
             }
         }
-        switch(s[mark]) {
-            case '+':
-            result = a + b;
-            break;
-            case '-':
-            result = a - b;
-            break;
-            case '*':
-            result = a * b;
-            break;
-            default:
-            break;
-        }
-        //printf("%d\n", result);
-        a = 0;
-        b = 0;
-        result = 0;
-        mark = 0;
-        memset(s, 0, l);
     }
+    switch(sign) {
+        case '+':
+        result = a + b;
+        break;
+        case '-':
+        result = a - b;
+        break;
+        case '*':
+        result = a * b;
+        break;
+        default:
+        break;
+    }
+    
+    printf("%d\n", a);
+    printf("%d\n", b);
+    printf("%d\n", result);
+
+    mark = 0;
+    a = 0;
+    b = 0;
     return 0;
 }
