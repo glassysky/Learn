@@ -1,0 +1,35 @@
+<p>/<strong><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em></strong></p>
+
+<blockquote>
+  <p>File Name: base1.c
+Author: 
+Mail: 
+Created Time: Sat Oct 29 16:00:01 2016
+ <strong><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em><em>*</em>**</strong>/</p>
+
+<h1>include<stdio.h></h1>
+</blockquote>
+
+<p>int main() {
+    int b, n;
+    int mod, digit;
+    int num[100] = {0};
+    int count;</p>
+
+<pre><code>scanf("%d", &amp;b);
+scanf("%d", &amp;n);
+while (b &gt; 0) {
+    digit = b / n;
+    mod = b % n;
+    b = digit;
+
+    num[count++] = mod;
+
+}
+for (int i = 0; i &lt; count; i++) {
+    printf("%d", num[count - i]);
+}
+return 0;
+</code></pre>
+
+<p>}</p>
