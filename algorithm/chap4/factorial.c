@@ -1,18 +1,16 @@
 /*************************************************************************
-	> File Name: swap.c
+	> File Name: factorial.c
 	> Author: 
 	> Mail: 
-	> Created Time: Sun Oct 30 15:12:23 2016
+	> Created Time: Sun Oct 30 16:21:34 2016
  ************************************************************************/
 
 #include<stdio.h>
-void swap(int* a, int* b) {
-    int t = *a; *a = *b; *b = t;
+int f(int n) {
+    return n == 0 ? 1 : f(n-1)*n;
 }
 
 int main() {
-    int a = 3, b = 4;
-    swap(&a, &b);
-    printf("%d %d\n", a, b);
+    printf("%d\n", f(3));
     return 0;
 }
