@@ -11,6 +11,6 @@ int f(int n) {
 }
 
 int main() {
-    printf("%d\n", f(3));
+    printf("%d\n", f(100000000));
     return 0;
 }
