@@ -1,16 +1,13 @@
 /*************************************************************************
-	> File Name: factorial.c
+	> File Name: test.c
 	> Author: 
 	> Mail: 
-	> Created Time: Sun Oct 30 16:21:34 2016
+	> Created Time: Mon 07 Nov 2016 03:25:15 PM HKT
  ************************************************************************/
 
 #include<stdio.h>
-int f(int n) {
-    return n == 0 ? 1 : f(n-1)*n;
-}
-
 int main() {
-    printf("%d\n", f(100000000));
+    float a = 2.887;
+    printf("%.2f", a);
     return 0;
 }
