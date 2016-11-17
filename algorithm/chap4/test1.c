@@ -2,14 +2,13 @@
 	> File Name: test.c
 	> Author: 
 	> Mail: 
-	> Created Time: Mon 07 Nov 2016 03:25:15 PM HKT
+	> Created Time: Sat 05 Nov 2016 03:16:43 PM HKT
  ************************************************************************/
 
 #include<stdio.h>
+int same = 1;
 int main() {
-    float a = 2.887;
-    do{
-        printf("%.2f", a);
-    }while(1);
+    int same = 2;
+    printf("%d\n", same);
     return 0;
 }
