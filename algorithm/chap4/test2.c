@@ -1,15 +1,12 @@
 /*************************************************************************
-	> File Name: test.c
+	> File Name: test2.c
 	> Author: 
 	> Mail: 
-	> Created Time: Mon 07 Nov 2016 03:25:15 PM HKT
+	> Created Time: Sat 05 Nov 2016 03:27:32 PM HKT
  ************************************************************************/
 
 #include<stdio.h>
-int main() {
-    float a = 2.887;
-    do{
-        printf("%.2f", a);
-    }while(1);
+int main () {
+    int a[1000000] = {0};
     return 0;
 }
