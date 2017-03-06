@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 50px;
+}
+
+/*dialog*/
+
+#c-dialog {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#c-dialog .c-content-element {
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#c-dialog .c-content-title {
+  position: relative;
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid #eee;
+  background-color: #2599f2;
+  color: #FFF;
+  text-align: left;
+}
+
+#c-dialog .c-content-text {
+  margin: 20px 0;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+#c-dialog .c-title-cross {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 2px 5px;
+  cursor: pointer;  
+}
+
+#c-dialog .c-title-cross b {
+  display:inline-block; 
+  width:12px; 
+  height:2px; 
+  background:#FFF; 
+  font-size:0; 
+  line-height:0;
+  vertical-align:middle;
+  transform: rotate(45deg);
+}
+
+#c-dialog .c-title-cross b:after {
+  content:'1'; 
+  display:block; 
+  width:12px; 
+  height:2px; 
+  background:#FFF;
+  transform: rotate(-90deg);
+}
+
+#c-dialog .c-button-wrap {
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+
+#c-dialog .c-button-wrap .button {
+  font-size: 14px;
+  margin: 0 5px;
+  padding: 8px 18px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+#c-dialog .c-button-wrap .button.cancel-button {
+  background-color: #f5f5f5;
+  color: #666;
+}
+
+#c-dialog .c-button-wrap .button.confirm-button {
+  background-color: #2599f2;
+  color: #FFF;
+}
