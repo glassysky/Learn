@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+ul, li {
+  margin: 0;
+}
+
+body {
+  background-color: red;
+}
+
+#list-wrap {
+  overflow: scroll;
+  height: 100%;
+  background-color: #333;
+}
+
+#list ul li {
+  padding: 30px;
+}
