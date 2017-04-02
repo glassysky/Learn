@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  video, div, canvas {
+    transform: rotateY(30deg) rotateX(-45deg);
+    -webkit-transform: rotateY(30deg) rotateX(-45deg);
+  }
+  </style>
+</head>
+<body>
+  <video src="Logan 2017 HDCAM XviD UnKnOwN.avi"></video>
+  <div>
+    <canvas id="a2d"></canvas><br>
+    <canvas id="a3d"></canvas>
+  </div>
+  <script type="text/javascript">
+    var size = 300;
+
+    var a2dCtx = document.getElementById('a2d').getContext('2d');
+    a2dCtx.canvas.width = size;
+    a2dCtx.canvas.height = size;
+    a2dCtx.fillStyle = "rgba(0, 192, 192, 80)";
+    a2dCtx.fillRect = (0, 0, 200, 200);
+
+    var a3dCtx = document.getElementById('a3d').getContext('experimental-webgl');
+    a3dCtx.canvas.width = size;
+    a3dCtx.canvas.height = size;
+    a3dCtx.clearColor(0.0, 192.0/255.0, 192.0/255.0, 80.0/255.0);
+    a3dCtx.clear(a3dCtx.CoLOR_BUFFER_BIT);
+  </script>
+</body>
+</html>
